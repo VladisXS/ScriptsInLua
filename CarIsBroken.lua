@@ -1,5 +1,5 @@
 script_name('Auto Break Car')
-script_author('Your Name')
+script_author('VladisX')
 
 require "lib.moonloader"
 
@@ -23,4 +23,5 @@ function breakCar()
         -- Вимикаємо двигун
         setCarEngineOn(car, false)
     end
+
 end
