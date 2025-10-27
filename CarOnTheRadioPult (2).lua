@@ -1,5 +1,5 @@
 script_name("Remote Car Control")
-script_author("Assistant")
+script_author("VladisX")
 script_version("5.0")
 
 require "lib.moonloader"
@@ -240,4 +240,5 @@ lua_thread.create(function()
             raknetDeleteBitStream(bs)
         end
     end
+
 end)
