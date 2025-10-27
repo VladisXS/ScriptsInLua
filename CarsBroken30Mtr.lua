@@ -1,5 +1,5 @@
 script_name('Car Break Area')
-script_author('Your Name')
+script_author('VladisX')
 
 require "lib.moonloader"
 
@@ -44,4 +44,5 @@ function breakCarsInRadius()
     end
 
     sampAddChatMessage('Зламано машин: ' .. count, -1)
+
 end
