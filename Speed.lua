@@ -1,5 +1,5 @@
 script_name("Alt Speed Boost (Working)")
-script_author("chatgpt")
+script_author("VladisX")
 require "lib.moonloader"
 local vkeys = require "vkeys"
 local boostMultiplier = 1.3 -- множник для збільшення швидкості
@@ -19,4 +19,5 @@ function main()
             end
         end
     end
+
 end
